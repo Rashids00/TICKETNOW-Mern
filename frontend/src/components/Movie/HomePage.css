@@ -1,0 +1,21 @@
+
+.homepage {
+    padding: 20px;
+}
+
+.custom-carousel {
+    width: 97%; /* Adjust the width as per your requirement */
+    margin: 0 auto; /* Center the Carousel */
+}
+
+.view {
+    text-decoration: none;
+    background-color: rgb(175, 175, 175);
+    color: white;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.view:hover {
+    background-color: rgb(159, 159, 159);
+}

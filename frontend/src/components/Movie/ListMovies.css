@@ -1,0 +1,90 @@
+
+.movie-cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
+
+.movie-card {
+    width: 220px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    position: relative; 
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 150px;;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.movie-card h5 {
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 1.1rem;
+    color: #333333;
+    font-weight: bold;
+}
+
+.movie-card p {
+    font-size: 0.8rem;
+    margin-top: 15px;
+    margin-left: 5px;
+    color: #616161;
+}
+
+.btn-card {
+    padding: 5px 10px;
+    margin: 12px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+    position: absolute;
+    bottom: 2px;
+    left: 47%;
+    transform: translateX(-50%);
+    color: #017FD2;
+}
+
+.btn-view {
+    background-color: #007bff;
+    color: white;
+    margin-right: 5px;
+}
+
+.btn-book {
+    background-color: #C30000;
+    color: white;
+    margin-left: 5px;
+}
+
+.btn-book:hover {
+    background-color: #930000;
+    color: #fff;
+}
+
+.btn-view:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.disabled {
+    filter: blur(2px);
+    pointer-events: none;
+}
+
+.dis {
+    text-align: center;
+    margin-top: 10%;
+    color: #616161;
+}
